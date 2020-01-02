@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: hello-k8s
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
     - port: 80
-      targetPort: 5000
+      targetPort: 80
   selector:
     app: hello-k8s

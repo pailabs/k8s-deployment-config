@@ -1,3 +1,4 @@
+
 ---
 apiVersion: apps/v1beta1
 kind: Deployment
@@ -19,9 +20,9 @@ spec:
     spec:
       containers:
       - name: hello-k8s
-        image: 064004006639.dkr.ecr.us-east-1.amazonaws.com/skynet-eks:8b55ba1bd814ededcf09bc2d8df9a67ee7a30c16
+        image: 064004006639.dkr.ecr.us-east-1.amazonaws.com/hello-k8s:04e90f85e2af92a278abb0fb01d4be9a9cffbf64
         ports:
-        - containerPort: 5000
+        - containerPort: 80
         resources:
           requests:
             cpu: 250m
