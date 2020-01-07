@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: hello-k8s
-        image: 064004006639.dkr.ecr.us-east-1.amazonaws.com/hello-k8s:5aeb2f3ca74c6d368d1bab0a8fd7a89f565f0cee
+        image: 064004006639.dkr.ecr.us-east-1.amazonaws.com/hello-k8s:c777b91aa8dbe13a052061316534fe12eac08e90
         ports:
         - containerPort: 80
         resources:
